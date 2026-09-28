@@ -1,5 +1,5 @@
 window.KT_CONFIG = {
-  productName: 'KnightTrader Coinbase',
+  productName: 'KnightTrader Propr',
   priceUsd: 47,
   priceLabel: '$47/month',
   stripePaymentUrl: 'https://buy.stripe.com/14AdRa7Iy2tS0qr748e3e0g',
