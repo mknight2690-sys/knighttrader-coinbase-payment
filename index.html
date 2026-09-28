@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KnightTrader Coinbase — 15 minutes to auto-trading</title>
+  <meta name="description" content="Fifteen minutes or less from a blank install to a local agent trading Coinbase perpetual futures. $47 a month. Updates included. No VPN." />
+  <meta property="og:title" content="15 minutes from nothing to Coinbase auto-trading" />
+  <meta property="og:description" content="$47/month for the desktop app, updates, and continued all-in-one agent access. No VPN." />
+  <link rel="canonical" href="https://mknight2690-sys.github.io/knighttrader-coinbase-payment/" />
+  <style>
+    :root { --bg:#070b12; --card:#101826; --text:#e8eef6; --muted:#93a0b3; --blue:#4da3ff; --line:rgba(255,255,255,.08); --good:#7ee3a8; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Inter,Segoe UI,system-ui,sans-serif; background:radial-gradient(900px 420px at 50% -10%, rgba(77,163,255,.18), transparent 60%), var(--bg); color:var(--text); line-height:1.55; }
+    a { color:var(--blue); }
+    .wrap { max-width:980px; margin:0 auto; padding:28px 20px 72px; }
+    header { display:flex; justify-content:space-between; align-items:center; gap:16px; }
+    .logo { font-weight:750; letter-spacing:-.03em; }
+    .logo span { color:var(--blue); }
+    .btn { display:inline-block; background:var(--blue); color:#041018; text-decoration:none; font-weight:750; border-radius:10px; padding:12px 18px; }
+    .btn.block { display:block; text-align:center; font-size:18px; padding:16px 18px; }
+    .hero { padding:48px 0 20px; }
+    .kicker { color:var(--good); font-weight:700; letter-spacing:.08em; text-transform:uppercase; font-size:13px; }
+    h1 { font-size:clamp(36px,6vw,64px); line-height:.98; letter-spacing:-.04em; margin:10px 0 16px; }
+    h1 em { font-style:normal; color:var(--blue); }
+    .lede { font-size:19px; color:var(--muted); max-width:680px; }
+    .price { margin:22px 0; font-size:18px; }
+    .price strong { font-size:32px; letter-spacing:-.03em; }
+    .clock { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; margin:28px 0; }
+    .step { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:14px; }
+    .step b { display:block; color:var(--blue); font-size:13px; }
+    h2 { letter-spacing:-.03em; margin:42px 0 10px; }
+    table { width:100%; border-collapse:collapse; background:var(--card); border-radius:14px; overflow:hidden; }
+    th, td { text-align:left; padding:12px 14px; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { color:var(--muted); font-size:13px; font-weight:650; }
+    td.num { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    .us td { background:rgba(77,163,255,.08); }
+    .note, .risk { color:var(--muted); font-size:14px; }
+    .risk { border:1px solid rgba(255,179,71,.35); background:rgba(255,179,71,.06); border-radius:14px; padding:16px; margin-top:28px; }
+    ul { padding-left:18px; }
+    @media (max-width:800px) { .clock { grid-template-columns:1fr 1fr; } header { align-items:flex-start; flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">KnightTrader <span>Coinbase</span></div>
+      <a class="btn" id="nav-buy" href="#">Start — $47/month</a>
+    </header>
+
+    <section class="hero">
+      <div class="kicker">No VPN. No server. No second product to learn.</div>
+      <h1>15 minutes<br />from nothing<br />to <em>auto-trading.</em></h1>
+      <p class="lede">Install the desktop app, paste a Coinbase key and a Nous key, and the local agent connects its own dashboard, gateway, and trading cron. If you already have a Coinbase login, that path is 15 minutes or less.</p>
+      <p class="price"><strong>$47</strong> / month. Updates included. Continued all-in-one access to the agent that scans Coinbase perpetual futures, sizes risk, and manages the trade.</p>
+      <a class="btn block" id="hero-buy" href="#">Get the 15-minute setup</a>
+    </section>
+
+    <div class="clock">
+      <div class="step"><b>Minute 0</b>Download the installer and open it. One app. Nothing to host.</div>
+      <div class="step"><b>Minute 2</b>Paste the Coinbase CDP key and the Nous Portal key. They stay on this PC.</div>
+      <div class="step"><b>Minute 8</b>Hermes installs locally. The dashboard and gateway start themselves.</div>
+      <div class="step"><b>Minute 15</b>The cron is live on a 5-minute scan. You are auto-trading. No VPN step exists.</div>
+    </div>
+
+    <h2>Why $47 is the cheap part</h2>
+    <p class="note">These are published list prices, not testimonials. Annual figures are the vendors’ own discounted monthly equivalents. KnightTrader does not include their products.</p>
+    <table>
+      <thead>
+        <tr><th>What people pay</th><th>Published price</th><th>What you still have to do</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>3Commas Starter</td><td class="num">$20/mo<br />$15 annual</td><td>You configure and babysit the bots.</td></tr>
+        <tr><td>3Commas Pro</td><td class="num">$50/mo<br />$40 annual</td><td>Same job, higher plan. Still a dashboard you operate.</td></tr>
+        <tr><td>3Commas Expert</td><td class="num">$140/mo<br />$110 annual</td><td>Almost 3× this subscription before you have written a strategy.</td></tr>
+        <tr><td>Cryptohopper Explorer</td><td class="num">$29/mo<br />$24.16 annual</td><td>Hosted bot. Prices exclude VAT. You still design the hopper.</td></tr>
+        <tr><td>Cryptohopper Adventurer</td><td class="num">$69/mo<br />$57.50 annual</td><td>Above $47, and setup is a product of its own.</td></tr>
+        <tr><td>Cryptohopper Hero</td><td class="num">$129/mo<br />$107.50 annual</td><td>A full extra bill for features you still have to configure.</td></tr>
+        <tr><td>Bitsgap Basic</td><td class="num">$29/mo<br />$23 annual</td><td>Grid and bot UI. You stay the operator.</td></tr>
+        <tr><td>Bitsgap Advanced</td><td class="num">$69/mo<br />$55 annual</td><td>More bots, same job: you set them up.</td></tr>
+        <tr><td>Bitsgap Pro</td><td class="num">$149/mo<br />$119 annual</td><td>The “do it yourself, but expensive” ceiling.</td></tr>
+        <tr class="us"><td>KnightTrader Coinbase</td><td class="num">$47/mo</td><td>The stack is the product. Install, two keys, trading cron. 15 minutes or less.</td></tr>
+      </tbody>
+    </table>
+    <p class="note">Sources: 3Commas, Cryptohopper, and Bitsgap public pricing pages. Cryptohopper prices exclude VAT. Hermes Agent itself is free MIT software. Model inference is separate: Nous Portal’s published tiers start at a free plan, then Plus $20, Super $100, and Ultra $200 per month if you choose paid credits. The app can use free models. $47 is the KnightTrader subscription, not a promise of trading profit and not the inference bill.</p>
+
+    <h2>What the $47 actually buys</h2>
+    <ul>
+      <li>The Windows and Mac desktop app, and the updates that follow.</li>
+      <li>Continued access to the all-in-one agent: Hermes dashboard, gateway, and the Coinbase perpetual cron, wired together.</li>
+      <li>A trading desk that reads your Coinbase balances on this machine. Keys are not a hosted account someone else controls.</li>
+      <li>The time. Other stacks ask you to become the integrator. This one is finished before a lunch break ends.</li>
+    </ul>
+
+    <div class="risk">
+      <strong>Futures can take the account.</strong>
+      KnightTrader Coinbase runs an agent against Coinbase perpetual futures. Leverage can lose some, most, or all of the money in the account. Fifteen minutes is how fast the software is ready. It is not how fast a strategy is proven. Do not fund an account with money you cannot lose in full.
+    </div>
+
+    <p style="margin-top:28px"><a class="btn block" id="foot-buy" href="#">Subscribe — $47/month</a></p>
+    <p class="note">Checkout is Stripe. After payment you land on the download page. Cancel anytime in the Stripe customer portal from your receipt.</p>
+  </div>
+  <script src="config.js"></script>
+  <script src="analytics.js"></script>
+  <script>
+    const url = (window.KT_CONFIG && window.KT_CONFIG.stripePaymentUrl) || '#';
+    for (const id of ['nav-buy', 'hero-buy', 'foot-buy']) {
+      const el = document.getElementById(id);
+      if (el) el.href = url;
+    }
+  </script>
+</body>
+</html>
